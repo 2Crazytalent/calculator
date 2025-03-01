@@ -138,21 +138,3 @@ ordersInput.addEventListener("change", getValues);
 packageInput.addEventListener("change", getValues);
 accountingInput.addEventListener("change", getValues);
 rentalInput.addEventListener("change", getValues);
-
-
-/*
-function Calculator() {
-    this.productsInput = document.getElementById("products");
-    this.products = 0;
-    //this.products.addEventListener("change", this.calculate());
-}
-
-Calculator.prototype.calculate = function () {
-    console.log("Calculating total");
-    console.log(this.products);
-}
-
-const totalCalculate = new Calculator();
-console.log(totalCalculate);
-totalCalculate.productsInput.addEventListener("change", totalCalculate.calculate);
- */
